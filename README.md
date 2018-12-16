@@ -13,13 +13,13 @@
     pytz==2018.7
     
 ####Installation:
-    conda create -n pizzaEnv python 3.4.5 anaconda
-    source activate pizzaEnv
-    psql\> createdb myprojectuser
-    #change password accordingly in setting.py file
-    #inside project folder run below commands
-    python manage.py makemigrations
-    python manage.py migrate
+    - conda create -n pizzaEnv python 3.4.5 anaconda
+    - source activate pizzaEnv
+    - psql\> createdb myprojectuser
+    - change password accordingly in setting.py file
+    - inside project folder run below commands
+    - python manage.py makemigrations
+    - python manage.py migrate
     
 #### To Run Project
     #inside project folder run the below command
